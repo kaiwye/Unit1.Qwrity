@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+/* Top Header */
+
+.header1 {
+  display: flex;
+  justify-content: space-between;
+  background: #213448;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Tahoma";
+  font-size: 1.25rem;
+  color: #ecefca;
+  border-right: 2px solid;
+  margin: 0.2rem;
+  padding: 0.8rem;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.topleft,
+.account {
+  margin: 4px;
+  padding: 4px;
+}
+
+.topleft a:last-child {
+  border: none;
+}
+
+.account a:last-child {
+  border: none;
+}
+
+/* Search Bar */
+
+.header2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ecefca;
+}
+
+.searchBar {
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  color: #213448;
+  font-family: "Tahoma";
+  font-size: 2rem;
+  margin: 0.2rem;
+  padding: 0.8rem;
+}
+
+input {
+  width: 50vw;
+  height: 6vh;
+  border-right: 0;
+  font-size: 1rem;
+}
+
+.search {
+  width: 5vw;
+  height: 6vh;
+}
+
+.search:hover {
+  background-color: #fff2f2;
+}
+
+.finance {
+  background-color: #94b4c1;
+  color: #213448;
+  font-weight: bold;
+  font-size: 1rem;
+  height: 6vh;
+  margin: 0.2rem;
+  padding: 0.8rem;
+}
+
+.finance:hover {
+  background-color: #fff2f2;
+}
