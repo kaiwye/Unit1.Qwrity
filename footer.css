@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  background: #213448;
+  margin-top: 0.5rem;
+  padding: 2rem;
+}
+
+h3 {
+  font-family: "Tahoma";
+  font-size: 1.25rem;
+  color: #ecefca;
+  border-bottom: 2px solid#ecefca;
+  margin: 0.25rem;
+}
+
+.footerLinks {
+  text-decoration: none;
+  font-family: "Tahoma";
+  font-size: 1rem;
+  color: #ecefca;
+  margin: 0.25rem;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+}
