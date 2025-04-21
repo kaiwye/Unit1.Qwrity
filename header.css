@@ -12,7 +12,7 @@
   background: #213448;
 }
 
-a {
+.topheader {
   text-decoration: none;
   font-family: "Tahoma";
   font-size: 1.25rem;
@@ -81,7 +81,7 @@ input {
 .finance {
   background-color: #94b4c1;
   color: #213448;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 1rem;
   height: 6vh;
   margin: 0.2rem;
